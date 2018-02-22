@@ -3,6 +3,8 @@ Example application in Kotlin using Java EE and JPA (Hibernate and MySQL) and JA
 on wildfly swarm
 
 ##How to run
+#First create user pis with password pis in your mysql & import init.sql
+
 ```
 mvn clean install && java -jar ./target/demo-swarm.jar
 ```
